@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Package" version="4">
+  <OBJECT>
+    <ID name="Package" mc="Standard.Package" uid="769628d2-df61-4c39-b112-b4acba789489"/>
+    <PID name="prueba1" mc="Standard.Package" uid="c170b352-7890-4065-a4e0-94ddac20251a"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Package]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Pelicula" mc="Standard.Class" uid="54516c5b-692e-4fcd-a132-4323c419282e"/>
+        <COMPID name="Videoclub" mc="Standard.Class" uid="1c1f97da-7019-48d0-aa4f-6bd34ed0ee30"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Package" mc="Standard.ClassDiagram" uid="9528278a-a6bf-4605-8876-f34e04f6abc4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
