@@ -7,6 +7,7 @@ import com.modeliosoft.modelio.javadesigner.annotations.objid;
 public class Pelicula {
     @objid ("e25e12f5-8cbe-4b05-bbd4-11d1e0f9ae52")
     private int titulo;
+    private int director;
 
     @objid ("db054946-3c5d-477e-9b26-3f48a04c7a55")
     private Date añoProduccion;
